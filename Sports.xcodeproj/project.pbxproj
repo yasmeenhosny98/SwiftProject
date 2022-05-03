@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1107811528217A9500BDB0AC /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107811428217A9500BDB0AC /* TeamsCollectionViewCell.swift */; };
+		11078117282186E700BDB0AC /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11078116282186E700BDB0AC /* Team.swift */; };
 		11E24BE328189692006B8522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E24BE228189692006B8522 /* AppDelegate.swift */; };
 		11E24BE528189692006B8522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E24BE428189692006B8522 /* SceneDelegate.swift */; };
 		11E24BE728189692006B8522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E24BE628189692006B8522 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1107811428217A9500BDB0AC /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
+		11078116282186E700BDB0AC /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		11E24BDF28189692006B8522 /* Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E24BE228189692006B8522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11E24BE428189692006B8522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				11E24BF028189695006B8522 /* LaunchScreen.storyboard */,
 				11E24BF328189695006B8522 /* Info.plist */,
 				11E24BEB28189692006B8522 /* Sports.xcdatamodeld */,
+				1107811428217A9500BDB0AC /* TeamsCollectionViewCell.swift */,
+				11078116282186E700BDB0AC /* Team.swift */,
 			);
 			path = Sports;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11078117282186E700BDB0AC /* Team.swift in Sources */,
 				11E24BE728189692006B8522 /* ViewController.swift in Sources */,
 				11E24BE328189692006B8522 /* AppDelegate.swift in Sources */,
 				11E24BED28189692006B8522 /* Sports.xcdatamodeld in Sources */,
 				11E24BE528189692006B8522 /* SceneDelegate.swift in Sources */,
+				1107811528217A9500BDB0AC /* TeamsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
